@@ -8,8 +8,6 @@ jobs:
     executor: ci-executor
     steps:
       - checkout
-      
-custom-build
 
       - run:
           name: build dependencies
